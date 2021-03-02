@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+
+/* ! Globals */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  color: #222;
+}
+hr {
+  border-top: 2px solid #b4b4b4;
+  width: 60%;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+/* ! Navigation */
+.navbar {
+  padding: 0.8rem;
+}
+.navbar-brand {
+  font-weight: 600;
+}
+.navbar-brand span {
+  color: lightblue;
+}
+.navbar-nav li {
+  padding-right: 20px;
+}
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+/* ! Home */
+.home {
+  background-image: url("img/background.jpg");
+  min-height: 760px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-top: 8rem;
+  padding: 0;
+  color: #fff;
+  text-shadow: 10px 10px 20px #000000;
+}
+.p-home-1 {
+  font-size: 1.5rem;
+  color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.73);
+}
+.p-home-2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 10rem;
+  text-shadow: 10px 10px 20px #000000;
+  text-transform: uppercase;
+}
+.btn-book {
+  font-weight: 600;
+  margin: 0;
+  padding: 10px 3rem;
+  text-transform: uppercase;
+  text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.76);
+}
+
+/* ! Travel */
+.travel {
+  margin-top: 5rem;
+}
+.lead {
+  margin-bottom: 6rem;
+}
+.icons {
+  width: 80%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.fa-plane-departure {
+  color: #e54d26;
+}
+.fa-train {
+  color: #563d7c;
+}
+.fa-car {
+  color: #2163af;
+}
+.fa-plane-departure,
+.fa-train,
+.fa-car {
+  font-size: 4em;
+  margin: 1rem;
+}
+
+/* ! About */
+.about {
+  background-image: url("img/background2.jpg");
+  min-height: 760px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about h1 {
+  color: #fff;
+  margin-top: 7rem;
+  font-size: 5rem;
+  text-shadow: 10px 10px 20px #000000;
+  text-transform: uppercase;
+}
+.about p {
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 5rem;
+  width: 70%;
+  line-height: 2rem;
+  text-shadow: 10px 10px 20px #000000;
+  font-weight: 500;
+}
+
+/* ! Contact */
+footer {
+  background-color: #fff;
+  min-height: 30vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 2rem;
+}
+
+/* ! Booking */
+.header-book {
+  margin-top: 4rem;
+}
+.card-section {
+  margin-top: 4rem;
+}
+.card-row {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.card-row i {
+  margin-right: 0.5rem;
+  color: violet;
+  font-size: 1.5rem;
+}
+.card-row p {
+  margin-right: 4rem;
+  font-weight: 600;
+}
+.price {
+  margin-left: auto;
+}
+.price i {
+  margin-left: auto;
+  font-size: 2rem;
+}
+.price p {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-left: 0.8rem;
+  line-height: 2rem;
+  letter-spacing: 0.2rem;
+}
+.img-height img {
+  min-height: 426px;
+}
+/* ! Form [Register] */
+.forma {
+  padding: 4rem;
+  margin: 2rem 2rem;
+  color: blueviolet;
+  border: 4px solid blueviolet;
+  border-radius: 1rem;
+}
+/* ! Form [Log in] */
+.log-in {
+  width: 60%;
+}
+
+/* ! Errors & Success */
+.error {
+  width: 92%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+}
+.success {
+  color: #3c763d;
+  background: #dff0d8;
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+.content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #b0c4de;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+  padding: 1rem;
+}
